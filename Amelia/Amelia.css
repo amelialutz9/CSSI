@@ -1,0 +1,108 @@
+h1 {
+  color: orange;
+  font-size: 50px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ffc977;
+}
+
+u {
+  color: #ffcce6
+}
+
+img:hover{
+  opacity: .5;
+}
+
+.blue-paragraph {
+  color: blue;
+}
+
+.red-paragraph {
+  color: red;
+}
+
+.description-link {
+  color: purple;
+  padding: 20px;
+}
+
+#first-heading {
+  font-size: 15px;
+}
+
+ul li {
+  color: green;
+  padding: 7px;
+}
+
+ol li a {
+  color: cyan;
+}
+
+.orange {
+  background-color: orange;
+}
+.purple {
+  background-color: purple;
+}
+
+span {
+  color: gray;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+#state {
+  background-color: yellow;
+}
+
+div {
+  border: dashed 10px;
+  border-color: black;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+#pets {
+  border: inset 10px;
+  border-color: blue;
+  background-color: yellow;
+}
+#pets h2 u {
+  color: purple;
+}
+
+p {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+#disappear-btn {
+  background-color: red;
+}
+
+#prof-pic {
+  display: block;
+  margin: auto;
+}
+
+.shown {
+  display: block;
+}
+
+#welcome {
+  font-size: 25px;
+  color: red;
+  text-align: center;
+}

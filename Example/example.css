@@ -1,0 +1,9 @@
+#go-btn {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: black;
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
