@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="resources/login.css"/>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <!-- <script src="login.js"></script> -->
+</head>
+<body>
+  <div id="header_div"><h1 id="login_header">Log In</h1></div>
+  <p>Welcome to JAMR!</p>
+  <div class="login_div" id="previous_user">
+    <form action="/service">
+      Username: <input type="text" name="username"></input>
+    </br>
+      Password: <input type="text" name="password"></input>
+    </br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="login_div" id="new_user">
+    <form action="/create">
+      <p>New to JAMR<span id="create_account">? Create an account:</span></p>
+      Name: <input type="text" name="name"></input>
+    </br>
+      Birthday (MM/DD/YYYY): <input type="text" name="bday"></input>
+    </br>
+      Username: <input type="text" name="username"></input>
+    </br>
+      Password: <input type="text" name="password"></input>
+    </br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

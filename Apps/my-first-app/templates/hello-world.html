@@ -1,0 +1,40 @@
+<html>
+<head>
+  <style>
+    #nameDisplay {color: {{color}} ;}
+    .veg {width: 100px;}
+</style>
+</head>
+<body>
+  <h1>{{greeting}} <span id="nameDisplay">{{name}}</span></h1>
+  <h1>My handler worked (with templates!)</h1>
+  <form action="/image">
+      What is your name? <input type="text" name="my_name">
+    </br>
+      What is your favorite color? <input type="text" name="favorite_color">
+    </br>
+      What is your favorite vegetable? <input type="text" name="vegetable">
+    </br>
+      And how many do you want? <input type="text" name="number">
+    </br>
+    <input type="submit">
+  </form>
+  <img src="resources/milk.jpg">
+  <h1>{{veggie}}:</h1>
+  {% if veggie == "rutabaga" %}
+    <p>A disgusting vegetable!!</p>
+    <ul>
+    {% for i in range(count) %}
+      <li><img class="veg" src="/resources/sad-face.png"></li>
+    {% endfor %}
+    </ul>
+  {% else %}
+    <p>A good vegetable!!</p>
+    <ol>
+    {% for i in range(count) %}
+      <li><img class="veg" src="/resources/thumbs-up.png"></li>
+    {% endfor %}
+    </ol>
+  {% endif %}
+</body>
+</html>

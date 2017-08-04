@@ -1,0 +1,26 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h1:hover {
+  color: orange;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-style: groove;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: pink;
+}
+
+img:hover {
+  opacity:.5;
+  border-width: 50px;
+}
+
+a {
+  text-decoration: none;
+}
